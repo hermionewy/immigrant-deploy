@@ -327,7 +327,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
 }
 
 header a.logo {
@@ -523,6 +522,34 @@ header.is-sticky.is-dark .header__toggle.is-visible span svg {
   line-height: 1.5;
 }
 
+.opening__title {
+  text-align: center;
+  padding-top: 1rem;
+  height: 5rem;
+  width: 100%;
+}
+
+.select__div {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("assets/images/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.select__div p {
+  color: #e05b43;
+  background-color: rgba(255,255,255,0.8);
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-family: "Grifo", "Georgia", "Times", "Times New Roman", serif;
+}
+
 .site-header {
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -542,7 +569,7 @@ header.is-sticky.is-dark .header__toggle.is-visible span svg {
 }
 
 .title__game {
-  font-family: "Grifo", "Georgia", "Times", "Times New Roman", serif;
+  font-family: "Grifo-Bold", "Georgia", "Times", "Times New Roman", serif;
 }
 
 .icon-color {
@@ -572,17 +599,17 @@ a {
 }
 
 .card_model {
-  margin-top: 5vh;
+  margin-top: 10vh;
   width: 100vw;
-  height: 95vh;
 }
 
 .card_model .card__content {
   text-align: center;
+  padding: 2rem;
 }
 
 .card__image {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: auto;
 }
@@ -632,6 +659,41 @@ a {
   animation: scale-display--reversed 0.4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+
+.img__credit,.img__caption {
+  width: 90%;
+  font-size: 0.75rem;
+  margin: 0.1rem auto 0 auto;
+  font-family: "Moderat", "Roboto", sans-serif;
+}
+
+#all-steppers {
+  text-align: center;
+}
+
+.stepper {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  border: 1px solid #e05b43;
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.stepper.stepper-active {
+  background-color: #e05b43;
+}
+
+a.stepper__a {
+  border-bottom: hidden;
+}
+
+.character {
+  padding: 1rem;
+  margin-top: 1rem;
 }
 
 @font-face {
@@ -694,6 +756,17 @@ a {
   .intro__hed {
     font-size: 64px;
     line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card_model .card__content {
+    padding: 1rem;
+  }
+
+  .card__image {
+    width: 100%;
+    height: 50vh;
   }
 }
 
