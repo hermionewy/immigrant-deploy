@@ -529,9 +529,13 @@ header.is-sticky.is-dark .header__toggle.is-visible span svg {
   width: 100%;
 }
 
+p {
+  margin: 0.6rem 0;
+}
+
 .select__div {
   width: 100%;
-  min-height: 150px;
+  min-height: 250px;
   text-align: center;
   vertical-align: middle;
   background-image: url("assets/images/1.jpg");
@@ -570,6 +574,7 @@ header.is-sticky.is-dark .header__toggle.is-visible span svg {
 
 .title__game {
   font-family: "Grifo-Bold", "Georgia", "Times", "Times New Roman", serif;
+  font-size: 3.5rem;
 }
 
 .icon-color {
@@ -589,13 +594,10 @@ a {
 }
 
 .overline {
-  background-color: #e05b43;
-  color: #fdfdfc;
   display: inline-block;
   font-family: "Moderat", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
-  padding: 0.5rem;
 }
 
 .card_model {
@@ -614,12 +616,24 @@ a {
   margin: auto;
 }
 
+a.btn--secondary {
+  background-color: #e05b43;
+  border: 1px solid transparent;
+  color: #fdfdfc;
+  padding: 0rem 1rem;
+}
+
+a.btn--secondary .btn__p {
+  font-size: 0.8rem;
+  margin: 0.6rem 0;
+}
+
 .card__content a.btn--primary {
   background-color: #e05b43;
   border: 1px solid transparent;
   color: #fdfdfc;
   padding: 0.5rem 1.5rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .card__content a.btn--primary:hover {
@@ -694,6 +708,25 @@ a.stepper__a {
 .character {
   padding: 1rem;
   margin-top: 1rem;
+}
+
+.line-processor,.line-processor-bg {
+  height: 9px;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.line-processor {
+  width: 0%;
+  background-color: #e05b43;
+  -webkit-transition: width 0.2s ease-in;
+  -o-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+}
+
+.line-processor-bg {
+  background-color: #ededed;
+  width: 100%;
 }
 
 @font-face {
