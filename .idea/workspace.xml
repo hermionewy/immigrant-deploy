@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76df5f32-e095-49f5-9c22-5804423a7c7c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/blocked_stamps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-1-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-1-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-3-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4-4-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-5-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/gianni-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/Gianni/images/success_stamps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/bootstrap.min.css.map" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="76df5f32-e095-49f5-9c22-5804423a7c7c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -147,12 +126,12 @@
       <workItem from="1533947159573" duration="641000" />
       <workItem from="1534696168192" duration="2516000" />
       <workItem from="1534902709281" duration="252000" />
-      <workItem from="1535091892654" duration="1760000" />
+      <workItem from="1535091892654" duration="1984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5169000" />
+    <option name="totallyTimeSpent" value="5393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
