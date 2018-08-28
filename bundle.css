@@ -644,7 +644,7 @@ cite::before {
   min-height: 120px;
   text-align: center;
   vertical-align: middle;
-  background-image: url("assets/images/1.jpg");
+  background-image: url("./assets/images/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
