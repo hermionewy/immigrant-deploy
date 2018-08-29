@@ -466,9 +466,9 @@ header {
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15vh;
+  margin-top: 11vh;
   min-height: 80vh;
-  margin-bottom: 3vh;
+  margin-bottom: 4vh;
   height: auto;
 }
 
@@ -506,6 +506,10 @@ figure,picture,img {
   height: auto;
   max-width: 100%;
   margin-bottom: 0.5rem;
+}
+
+.hide-span {
+  display: none;
 }
 
 .intro {
@@ -763,6 +767,7 @@ cite::before {
 
   .card-persona {
     height: 80vh;
+    margin-top: 15vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
