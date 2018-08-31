@@ -414,6 +414,15 @@ p {
   font-family: "Moderat", "Roboto", sans-serif;
 }
 
+.img__credit {
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.img__caption {
+  font-size: 0.875rem;
+}
+
 .displayNone {
   display: none;
 }
