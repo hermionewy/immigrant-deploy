@@ -493,7 +493,7 @@ body::after {
   bottom: -5vh;
   height: 5vh;
   background-color: #f3f2ee;
-  color: #e05b43;
+  color: #000;
   font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   text-align: right;
 }
@@ -504,7 +504,7 @@ body::after {
 }
 
 .card--footer small a {
-  color: #e05b43;
+  color: #000;
 }
 
 .card--footer .inner--footer {
