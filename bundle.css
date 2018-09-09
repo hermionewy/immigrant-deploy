@@ -490,7 +490,7 @@ body::after {
 .card--footer {
   width: 100%;
   position: relative;
-  bottom: -5vh;
+  bottom: 0vh;
   height: 5vh;
   background-color: #f3f2ee;
   color: #000;
@@ -584,8 +584,10 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  max-width: 28rem;
-  margin: auto;
+  max-width: 32rem;
+  margin: 0 auto 6vh auto;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .card-persona .hero__content .card__content p span {
@@ -791,7 +793,7 @@ cite::before {
 
 .line-processor-container {
   position: relative;
-  bottom: 0rem;
+  bottom: 6vh;
   margin-bottom: 0rem;
   height: 9px;
   width: 100%;
@@ -868,29 +870,9 @@ cite::before {
     margin: 0 auto 0 auto;
   }
 
-  .card-persona {
-    height: 88vh;
-    margin-top: 12vh;
-    margin-bottom: 0vh;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .card-persona .hero__media {
-    width: 50%;
-    margin: auto 0;
-  }
-
   .intro__hed {
     font-size: 48px;
     line-height: 1.2;
-  }
-
-  cite::before {
-    border-bottom: 2px solid #f3f2ee;
-    margin-bottom: 0.5rem;
   }
 
   #all_opening {
@@ -903,23 +885,6 @@ cite::before {
 
   .select__div {
     min-height: 220px;
-  }
-
-  .passing {
-    width: 25%;
-    min-height: 5rem;
-    position: absolute;
-    right: 22vw;
-    top: 1rem;
-  }
-
-  .line-processor,.line-processor-bg {
-    height: 9px;
-    left: 66%;
-  }
-
-  .line-processor-bg {
-    width: 17%;
   }
 }
 
@@ -943,9 +908,30 @@ cite::before {
     margin-right: 35vw;
   }
 
-  .card-persona .hero__content {
+  .card-persona {
+    height: 88vh;
+    margin-top: 12vh;
+    margin-bottom: 0vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .card-persona .hero__media {
     width: 50%;
-    display: block;
+    margin: auto 0;
+  }
+
+  .card-persona .hero__content {
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  cite::before {
+    border-bottom: 2px solid #f3f2ee;
+    margin-bottom: 0.5rem;
   }
 
   #all_opening {
@@ -969,10 +955,27 @@ cite::before {
     min-height: 250px;
   }
 
+  .passing {
+    width: 25%;
+    min-height: 5rem;
+    position: absolute;
+    right: 22vw;
+    top: 1rem;
+  }
+
   .line-processor-container {
     bottom: 1rem;
     position: absolute;
     margin-bottom: 0.5rem;
+  }
+
+  .line-processor,.line-processor-bg {
+    height: 9px;
+    left: 66%;
+  }
+
+  .line-processor-bg {
+    width: 17%;
   }
 }
 
@@ -1015,6 +1018,8 @@ cite::before {
   .card-persona .hero__content {
     width: 50%;
     display: block;
+    font-size: 16px;
+    line-height: 1.6;
   }
 
   .intro__hed {
