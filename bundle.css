@@ -776,6 +776,7 @@ cite::before {
   position: absolute;
   right: 50vw;
   top: 50vh;
+  z-index: 1000;
 }
 
 .passing .passing-div {
