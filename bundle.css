@@ -1029,6 +1029,14 @@ cite::before {
   }
 }
 
+@media only screen and (min-width: 90em) {
+  .card-persona .hero__media img {
+    width: 85%;
+    height: auto;
+    max-height: 80vh;
+  }
+}
+
 @-webkit-keyframes scale-display {
   0% {
     opacity: 0;
