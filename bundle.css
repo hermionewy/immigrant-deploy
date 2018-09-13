@@ -648,6 +648,129 @@ figure,picture,img {
   line-height: 1.7;
 }
 
+.site-header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header__nav-list .site-header__nav-item {
+  margin: 0.4rem;
+  list-style-type: none;
+}
+
+.site-header__nav-list .site-header__nav-item .site-header__nav-link {
+  color: #e05b43;
+  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-weight: 700;
+  -webkit-transition: 0.2s ease-in-out all;
+  -o-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+  display: none;
+}
+
+.site-header__nav-list .site-header__nav-item .site-header__nav-link:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-menu__btn.btn--secondary {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.btn--secondary:hover svg line {
+  stroke: #e05b43;
+  -webkit-transition: 0.2s ease-in-out all;
+  -o-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+}
+
+.site-menu__btn:hover .icon-open__group {
+  -webkit-transition: 0.2s ease-in-out all;
+  -o-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+}
+
+.site-menu__btn:hover .icon-open__group:nth-of-type(1) {
+  -webkit-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+
+.site-menu__btn:hover .icon-open__group:nth-of-type(2) {
+  -webkit-transform: translateX(-8px);
+  -ms-transform: translateX(-8px);
+  transform: translateX(-8px);
+}
+
+.site-menu__btn:hover .icon-open__group:nth-of-type(3) {
+  -webkit-transform: translateX(-3px);
+  -ms-transform: translateX(-3px);
+  transform: translateX(-3px);
+}
+
+.site-menu.site-about {
+  -webkit-transition: 0.2s ease-in-out all;
+  -o-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+  display: block;
+  position: absolute;
+  right: 2.5rem;
+  top: 3rem;
+  opacity: 0;
+}
+
+.site-menu.site-about.is-revealed {
+  opacity: 1;
+}
+
+.site-menu.site-about nav {
+  padding: 1rem;
+  width: 200px;
+  background-color: rgba(255,255,255,0.8);
+  border: 1px solid #ccc;
+}
+
+.site-menu.site-about nav a.site-about__link {
+  -webkit-transition: 0.2s ease-in-out all;
+  -o-transition: 0.2s ease-in-out all;
+  transition: 0.2s ease-in-out all;
+  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-weight: 700;
+  color: #e05b43;
+}
+
+.site-menu.site-about nav a.site-about__link:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.site-about__list-item {
+  margin-bottom: 1rem;
+}
+
+.icon-open {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.icon-open.hideBtn {
+  display: none;
+}
+
+.icon-close {
+  display: none;
+}
+
+.icon-close.showBtn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
 sup {
   font-size: 100%;
   line-height: inherit;
@@ -928,6 +1051,18 @@ cite::before {
     margin: auto;
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  .site-header__nav-list .site-header__nav-item .site-header__nav-link {
+    display: inline;
+  }
+
+  .site-menu__btn.btn--secondary {
+    display: none;
+  }
+
+  .site-menu.site-about {
+    display: none;
   }
 
   cite::before {
