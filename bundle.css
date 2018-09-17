@@ -495,7 +495,7 @@ body::after {
   background-color: #f3f2ee;
   color: #000;
   font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  text-align: right;
+  text-align: center;
 }
 
 .card--footer small {
@@ -508,7 +508,8 @@ body::after {
 }
 
 .card--footer .inner--footer {
-  margin-top: 0.2vh;
+  padding: auto;
+  height: 100%;
 }
 
 .site-footer__social {
@@ -516,7 +517,6 @@ body::after {
   display: -ms-inline-flexbox;
   display: inline-flex;
   list-style-type: none;
-  margin-right: 15vw;
   margin-top: 0.2rem;
   padding: 0;
 }
@@ -530,9 +530,9 @@ body::after {
 }
 
 header {
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,7 +584,7 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  max-width: 32rem;
+  max-width: 28rem;
   margin: 0 auto 6vh auto;
   font-size: 12px;
   line-height: 1.5;
@@ -612,6 +612,11 @@ figure,picture,img {
 
 .hide-span {
   display: none;
+}
+
+.slide-in {
+  -webkit-animation: slide-in 0.5s ease-in;
+  animation: slide-in 0.5s ease-in;
 }
 
 .intro {
@@ -655,7 +660,7 @@ figure,picture,img {
 }
 
 .site-header__nav-list .site-header__nav-item {
-  margin: 0.4rem;
+  margin: 0rem;
   list-style-type: none;
 }
 
@@ -678,6 +683,7 @@ figure,picture,img {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin: 0px;
 }
 
 .btn--secondary:hover svg line {
@@ -850,17 +856,29 @@ cite::before {
   width: 100%;
 }
 
-.openning__deck {
+.opening__deck {
   width: 100%;
   text-align: center;
   width: 100%;
   margin-bottom: 1rem;
 }
 
-.openning__deck .center__p {
+.opening__deck .center__p {
   width: 100%;
   margin: auto;
   padding: 0.5rem;
+}
+
+address {
+  margin: auto;
+}
+
+address .opening-byline {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  margin: auto;
 }
 
 .opening-icon {
@@ -889,15 +907,33 @@ cite::before {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  margin: 0 auto;
   font-family: "Grifo", "Georgia", "Times", "Times New Roman", serif;
 }
 
+.pubdate,.author-bio {
+  width: 100%;
+  text-align: center;
+}
+
+.pubdate p,.author-bio p {
+  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.pubdate:before {
+  border-top: 2px solid #d5d2c4;
+  content: "";
+  display: block;
+  margin: 1rem auto;
+  width: 6rem;
+}
+
 .passing {
-  width: 50%;
-  min-height: 5rem;
+  width: 35%;
+  min-height: 3rem;
   position: absolute;
-  right: 50vw;
+  right: 55vw;
   top: 50vh;
   z-index: 1000;
 }
@@ -1018,22 +1054,16 @@ cite::before {
   }
 
   .card--footer {
-    position: absolute;
-    bottom: -5vh;
-    height: 5vh;
+    position: relative;
   }
 
   .card--footer small {
-    font-size: 80%;
+    font-size: 75%;
     margin-right: 2rem;
   }
 
-  .site-footer__social {
-    margin-right: 35vw;
-  }
-
   .card-persona {
-    height: 88vh;
+    height: 83vh;
     margin-top: 12vh;
     margin-bottom: 0vh;
     -webkit-box-orient: horizontal;
@@ -1049,8 +1079,13 @@ cite::before {
 
   .card-persona .hero__content {
     margin: auto;
+    max-width: 30rem;
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  .site-header__nav-list .site-header__nav-item {
+    margin: 0.4rem;
   }
 
   .site-header__nav-list .site-header__nav-item .site-header__nav-link {
@@ -1075,7 +1110,7 @@ cite::before {
     min-height: 170vh;
   }
 
-  .openning__deck .center__p {
+  .opening__deck .center__p {
     width: 50%;
   }
 
@@ -1092,15 +1127,15 @@ cite::before {
   }
 
   .passing {
-    width: 25%;
-    min-height: 5rem;
+    width: 16%;
+    min-height: 3rem;
     position: absolute;
-    right: 22vw;
+    right: 27vw;
     top: 1rem;
   }
 
   .line-processor-container {
-    bottom: 1rem;
+    bottom: 0.5rem;
     position: absolute;
     margin-bottom: 0.5rem;
   }
@@ -1131,13 +1166,9 @@ cite::before {
     margin: 8px auto 3px auto;
   }
 
-  .card--footer .inner--footer {
-    margin-top: 0.3vh;
-  }
-
   .card-persona {
     margin-top: 10vh;
-    height: 90vh;
+    height: 85vh;
   }
 
   .card-persona .hero__media {
@@ -1153,6 +1184,7 @@ cite::before {
 
   .card-persona .hero__content {
     width: 50%;
+    max-width: 33rem;
     display: block;
     font-size: 16px;
     line-height: 1.6;
@@ -1161,6 +1193,10 @@ cite::before {
   .intro__hed {
     font-size: 64px;
     line-height: 1.2;
+  }
+
+  .site-header__nav-list .site-header__nav-item {
+    margin: 0.4rem 0.6rem;
   }
 }
 
@@ -1249,5 +1285,33 @@ cite::before {
     opacity: 0;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    opacity: 0.1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+    opacity: 0.1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
   }
 }
