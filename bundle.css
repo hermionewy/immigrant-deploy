@@ -584,7 +584,7 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
-  max-width: 28rem;
+  max-width: 24rem;
   margin: 0 auto 6vh auto;
   font-size: 12px;
   line-height: 1.5;
@@ -893,11 +893,14 @@ address .opening-byline {
   min-height: 120px;
   text-align: center;
   vertical-align: middle;
-  background-image: url("./assets/images/1.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  content: attr(data-img-url);
   position: relative;
+}
+
+.select__div .opening--img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 .select__div p {
@@ -946,9 +949,9 @@ address .opening-byline {
 
 .passing .passing-div.show {
   opacity: 1;
-  -webkit-transition: 1s ease-in-out 0.5s all;
-  -o-transition: 1s ease-in-out 0.5s all;
-  transition: 1s ease-in-out 0.5s all;
+  -webkit-transition: 0.6s ease-in-out 0.5s all;
+  -o-transition: 0.6s ease-in-out 0.5s all;
+  transition: 0.6s ease-in-out 0.5s all;
 }
 
 .line-processor-container {
@@ -1000,7 +1003,7 @@ address .opening-byline {
 
 @media only screen and (min-width: 25em) {
   .select__div {
-    min-height: 200px;
+    min-height: 180px;
   }
 }
 
@@ -1044,7 +1047,7 @@ address .opening-byline {
   }
 
   .select__div {
-    min-height: 220px;
+    min-height: 200px;
   }
 }
 
@@ -1075,6 +1078,10 @@ address .opening-byline {
   .card-persona .hero__media {
     width: 50%;
     margin: auto 0;
+  }
+
+  .card-persona .hero__content {
+    max-width: 28rem;
   }
 
   .card-persona .hero__content {
@@ -1123,7 +1130,7 @@ address .opening-byline {
   }
 
   .select__div {
-    min-height: 250px;
+    min-height: 220px;
   }
 
   .passing {
@@ -1197,6 +1204,10 @@ address .opening-byline {
 
   .site-header__nav-list .site-header__nav-item {
     margin: 0.4rem 0.6rem;
+  }
+
+  .select__div {
+    min-height: 250px;
   }
 }
 
