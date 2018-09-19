@@ -619,6 +619,16 @@ figure,picture,img {
   animation: slide-in 0.5s ease-in;
 }
 
+.share-note {
+  text-align: center;
+}
+
+.share-note p {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+}
+
 .intro {
   margin: 0 auto;
   padding: 4rem 1rem 1.5rem 1rem;
@@ -842,7 +852,7 @@ cite::before {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 20vh;
-  min-height: 180vh;
+  min-height: 200vh;
 }
 
 #all_opening .btn__p {
@@ -932,8 +942,12 @@ address .opening-byline {
   width: 6rem;
 }
 
+.author-bio p a {
+  color: #e05b43;
+}
+
 .passing {
-  width: 35%;
+  width: 80px;
   min-height: 3rem;
   position: absolute;
   right: 55vw;
@@ -948,10 +962,13 @@ address .opening-byline {
 }
 
 .passing .passing-div.show {
-  opacity: 1;
-  -webkit-transition: 0.6s ease-in-out 0.5s all;
-  -o-transition: 0.6s ease-in-out 0.5s all;
-  transition: 0.6s ease-in-out 0.5s all;
+  -webkit-animation: fade-in 1s ease-in 0.5s forwards;
+  animation: fade-in 1s ease-in 0.5s forwards;
+}
+
+.passing .passing-div.hide {
+  -webkit-animation: fade-out 0.3s ease-in;
+  animation: fade-out 0.3s ease-in;
 }
 
 .line-processor-container {
@@ -1114,7 +1131,7 @@ address .opening-byline {
 
   #all_opening {
     margin-top: 15vh;
-    min-height: 170vh;
+    min-height: 240vh;
   }
 
   .opening__deck .center__p {
@@ -1134,11 +1151,11 @@ address .opening-byline {
   }
 
   .passing {
-    width: 16%;
+    width: 100px;
     min-height: 3rem;
     position: absolute;
-    right: 27vw;
-    top: 1rem;
+    right: 26vw;
+    top: 3rem;
   }
 
   .line-processor-container {
@@ -1213,7 +1230,9 @@ address .opening-byline {
 
 @media only screen and (min-width: 90em) {
   .card-persona .hero__media img {
-    width: 85%;
+    min-width: 70%;
+    max-width: 85%;
+    width: auto;
     height: auto;
     max-height: 80vh;
   }
@@ -1324,5 +1343,45 @@ address .opening-byline {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
