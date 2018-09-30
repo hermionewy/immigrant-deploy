@@ -173,18 +173,18 @@ caption,th,td {
 }
 
 .small {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .root {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.5;
 }
 
 .medium {
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .large {
@@ -220,7 +220,7 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   background-color: #fff;
   color: #282828;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 h1 {
@@ -236,32 +236,32 @@ h2 {
 }
 
 h3 {
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h4 {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 17px;
+  line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin-top: 1.5rem;
 }
 
 p {
   margin: 1.5rem 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -278,7 +278,7 @@ ul {
 }
 
 li {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 img,video {
@@ -293,7 +293,7 @@ button {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 sub,sup {
@@ -362,7 +362,7 @@ sub {
 }
 
 .btn--secondary .btn__p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   margin: 0px;
   line-height: 1.15;
   color: #333;
@@ -391,7 +391,25 @@ sub {
 .btn--icon {
   width: 25px;
   height: 25px;
-  margin: 8px auto 1px auto;
+  margin: 6px auto 1px auto;
+}
+
+#opening_not_link:hover {
+  cursor: default;
+  background-color: #e05b43;
+  border: 1px solid transparent;
+  color: #fdfdfc;
+  -webkit-box-shadow: 0 0 0 0px #fdfdfc;
+  box-shadow: 0 0 0 0px #fdfdfc;
+}
+
+.description-box a {
+  color: #e05b43;
+}
+
+.description-box a:hover {
+  color: #e05b43;
+  text-decoration: none;
 }
 
 h1,h2 {
@@ -478,13 +496,17 @@ body::after {
 .description-box p {
   font-family: Moderat;
   font-weight: 400;
-  font-size: small;
+  font-size: root;
   margin: 0rem;
 }
 
 .description-box .desp-name {
   color: #e05b43;
   font-weight: 700;
+}
+
+span.year {
+  color: #9f9e98 !important;
 }
 
 .card--footer {
@@ -586,12 +608,12 @@ header {
   text-align: center;
   max-width: 24rem;
   margin: 0 auto 6vh auto;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .card-persona .hero__content .card__content p span {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 700;
   font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
 }
@@ -656,7 +678,7 @@ figure,picture,img {
   padding-top: 5rem;
   padding-bottom: 1.5rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -665,8 +687,37 @@ figure,picture,img {
   margin: 0 auto;
   padding-top: 1.5rem;
   text-align: center;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#methodology {
+  display: inline-block;
+  padding-bottom: 2rem;
+  margin-top: 15vh;
+}
+
+#methodology .meth_img {
+  width: 30%;
+  height: auto;
+  margin: 0px auto;
+}
+
+#methodology .center_btn {
+  text-align: center;
+}
+
+#methodology .center__p {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 2;
+  margin-bottom: 2rem;
+}
+
+#methodology .center__p a {
+  color: #e05b43;
 }
 
 .site-header__nav-list {
@@ -862,7 +913,7 @@ cite::before {
 }
 
 #all_opening .btn__p {
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   font-weight: 700;
 }
 
@@ -954,6 +1005,24 @@ cite::before {
   color: #e05b43;
 }
 
+.method {
+  color: #e05b43;
+}
+
+.method:hover {
+  color: #e05b43;
+  text-decoration: none;
+}
+
+.desp-desp {
+  color: #000;
+}
+
+.opening--img:hover {
+  -webkit-animation: slide-in-slow 0.5s ease-in-out;
+  animation: slide-in-slow 0.5s ease-in-out;
+}
+
 .passing {
   width: 80px;
   min-height: 3rem;
@@ -1034,20 +1103,20 @@ cite::before {
 
 @media only screen and (min-width: 40em) {
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.5;
   }
 
   li {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   button {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .btn--secondary {
@@ -1083,6 +1152,7 @@ cite::before {
 
   .card--footer {
     position: relative;
+    min-height: 2rem;
   }
 
   .card--footer small {
@@ -1091,7 +1161,7 @@ cite::before {
   }
 
   .card-persona {
-    height: 83vh;
+    min-height: 83vh;
     margin-top: 12vh;
     margin-bottom: 0vh;
     -webkit-box-orient: horizontal;
@@ -1106,14 +1176,14 @@ cite::before {
   }
 
   .card-persona .hero__content {
-    max-width: 28rem;
-  }
-
-  .card-persona .hero__content {
     margin: auto;
     max-width: 30rem;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.5;
+  }
+
+  #methodology .center__p {
+    width: 50%;
   }
 
   .site-header__nav-list .site-header__nav-item {
@@ -1184,7 +1254,7 @@ cite::before {
 
 @media only screen and (min-width: 65em) {
   body {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .hero__content .btn--secondary {
@@ -1195,12 +1265,12 @@ cite::before {
   .btn--icon {
     width: 30px;
     height: 30px;
-    margin: 8px auto 3px auto;
+    margin: 6px auto 3px auto;
   }
 
   .card-persona {
     margin-top: 10vh;
-    height: 85vh;
+    min-height: 85vh;
   }
 
   .card-persona .hero__media {
@@ -1218,8 +1288,6 @@ cite::before {
     width: 50%;
     max-width: 33rem;
     display: block;
-    font-size: 16px;
-    line-height: 1.6;
   }
 
   .intro__hed {
@@ -1344,6 +1412,34 @@ cite::before {
   0% {
     -webkit-transform: translateY(50%);
     transform: translateY(50%);
+    opacity: 0.1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-in-slow {
+  0% {
+    -webkit-transform: translateY(10%);
+    transform: translateY(10%);
+    opacity: 0.1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-slow {
+  0% {
+    -webkit-transform: translateY(10%);
+    transform: translateY(10%);
     opacity: 0.1;
   }
 
