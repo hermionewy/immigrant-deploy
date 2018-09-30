@@ -178,7 +178,7 @@ caption,th,td {
 }
 
 .root {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -220,7 +220,7 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   background-color: #fff;
   color: #282828;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 h1 {
@@ -242,7 +242,7 @@ h3 {
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
   margin-top: 1.5rem;
 }
@@ -293,7 +293,7 @@ button {
   margin: 0;
   padding: 0;
   font-size: 1rem;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 sub,sup {
@@ -1103,16 +1103,16 @@ cite::before {
 
 @media only screen and (min-width: 40em) {
   body {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   p {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
   }
 
   li {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   button {
@@ -1178,7 +1178,7 @@ cite::before {
   .card-persona .hero__content {
     margin: auto;
     max-width: 30rem;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
   }
 
@@ -1258,7 +1258,7 @@ cite::before {
   }
 
   .hero__content .btn--secondary {
-    width: 150px;
+    width: 170px;
     height: 100px;
   }
 
