@@ -463,8 +463,8 @@ body::after {
 }
 
 .img-desp {
-  width: 85%;
-  margin: 1rem auto;
+  width: 95%;
+  margin: 0px auto 1rem auto;
 }
 
 .img__credit,.img__caption {
@@ -506,6 +506,7 @@ body::after {
 }
 
 span.year {
+  letter-spacing: -3px;
   color: #9f9e98 !important;
 }
 
@@ -1150,6 +1151,10 @@ cite::before {
     font-size: 3rem;
   }
 
+  .img-desp {
+    text-align: center;
+  }
+
   .card--footer {
     position: relative;
     min-height: 2rem;
@@ -1279,7 +1284,6 @@ cite::before {
   }
 
   .card-persona .hero__media img {
-    width: 85%;
     height: auto;
     max-height: 72vh;
   }
