@@ -383,7 +383,7 @@ sub {
 }
 
 .hero__content .btn--secondary {
-  width: 120px;
+  width: 140px;
   height: 104px;
   border-radius: 5px;
 }
@@ -514,7 +514,6 @@ span.year {
   width: 100%;
   position: relative;
   bottom: 0vh;
-  height: 5vh;
   background-color: #f3f2ee;
   color: #000;
   font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
@@ -532,6 +531,7 @@ span.year {
 
 .card--footer .inner--footer {
   padding: auto;
+  min-height: 2.4rem;
   height: 100%;
 }
 
@@ -550,6 +550,10 @@ span.year {
 
 .site-footer__social li svg {
   fill: #e05b43;
+}
+
+.site-footer__social li svg:hover {
+  fill: #000;
 }
 
 header {
@@ -944,6 +948,7 @@ cite::before {
 }
 
 .address .opening-byline {
+  width: 90%;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -986,6 +991,10 @@ cite::before {
 .pubdate,.author-bio {
   width: 100%;
   text-align: center;
+}
+
+.author-bio {
+  margin-bottom: 3rem;
 }
 
 .pubdate p,.author-bio p {
@@ -1045,8 +1054,8 @@ cite::before {
 }
 
 .passing .passing-div.hide {
-  -webkit-animation: fade-out 0.3s ease-in;
-  animation: fade-out 0.3s ease-in;
+  -webkit-animation: fade-out 0.5s ease-in forwards;
+  animation: fade-out 0.5s ease-in forwards;
 }
 
 .line-processor-container {
@@ -1156,7 +1165,8 @@ cite::before {
   }
 
   .card--footer {
-    position: relative;
+    position: absolute;
+    bottom: 0px;
     min-height: 2rem;
   }
 
@@ -1166,7 +1176,7 @@ cite::before {
   }
 
   .card-persona {
-    min-height: 83vh;
+    min-height: 88vh;
     margin-top: 12vh;
     margin-bottom: 0vh;
     -webkit-box-orient: horizontal;
@@ -1238,7 +1248,7 @@ cite::before {
     min-height: 3rem;
     position: absolute;
     right: 26vw;
-    top: 3rem;
+    top: 2rem;
   }
 
   .line-processor-container {
@@ -1275,7 +1285,7 @@ cite::before {
 
   .card-persona {
     margin-top: 10vh;
-    min-height: 85vh;
+    min-height: 90vh;
   }
 
   .card-persona .hero__media {
