@@ -313,7 +313,7 @@ sub {
 
 .overline {
   display: inline-table;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .opening--btn,.card--btn {
@@ -506,8 +506,9 @@ body::after {
 }
 
 span.year {
-  letter-spacing: -3px;
+  letter-spacing: -1.5px;
   color: #9f9e98 !important;
+  font-size: 2rem;
 }
 
 .card--footer {
@@ -516,7 +517,7 @@ span.year {
   bottom: 0vh;
   background-color: #f3f2ee;
   color: #000;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   text-align: center;
 }
 
@@ -625,7 +626,7 @@ header {
 .card-persona .hero__content .card__content p span {
   font-size: 1rem;
   font-weight: 700;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .card-persona .hero__inner {
@@ -658,7 +659,7 @@ figure,picture,img {
 .share-note p {
   font-size: 0.9rem;
   font-weight: 700;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .site-footer__social svg:hover {
@@ -743,7 +744,7 @@ figure,picture,img {
 
 .site-header__nav-list .site-header__nav-item .site-header__nav-link {
   color: #e05b43;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 700;
   -webkit-transition: 0.2s ease-in-out all;
   -o-transition: 0.2s ease-in-out all;
@@ -820,7 +821,7 @@ figure,picture,img {
   -webkit-transition: 0.2s ease-in-out all;
   -o-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 700;
   color: #e05b43;
 }
@@ -877,7 +878,7 @@ sup::after {
   box-shadow: 3px 3px 0 0 #d5d2c4;
   color: #e05b43;
   content: counter(sup);
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   margin: 0 0.5rem;
@@ -897,15 +898,36 @@ cite {
 }
 
 cite.showNote {
-  opacity: 1;
+  opacity: 0;
 }
 
 cite::before {
   color: #e05b43;
   content: counter(sup);
   display: block;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   font-weight: 700;
+}
+
+p.show_cite {
+  display: block;
+  font-size: 0.875rem;
+  text-align: left;
+  opacity: 0;
+}
+
+p.show_cite.active {
+  opacity: 1;
+}
+
+p.show_cite::before {
+  color: #e05b43;
+  content: "1";
+  display: block;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
+  font-weight: 700;
+  border-bottom: 2px solid #f3f2ee;
+  margin-bottom: 0.5rem;
 }
 
 #all_opening {
@@ -957,7 +979,7 @@ cite::before {
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   margin: auto;
 }
 
@@ -1003,7 +1025,7 @@ cite::before {
 }
 
 .pubdate p,.author-bio p {
-  font-family: "Moderat", "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-family: "Moderat", "Helvetica Neue", "Helvetica", sans-serif;
   max-width: 32rem;
   margin: 0 auto;
 }
@@ -1222,9 +1244,17 @@ cite::before {
     display: none;
   }
 
+  cite.showNote {
+    opacity: 1;
+  }
+
   cite::before {
     border-bottom: 2px solid #f3f2ee;
     margin-bottom: 0.5rem;
+  }
+
+  p.show_cite {
+    display: none;
   }
 
   #all_opening {

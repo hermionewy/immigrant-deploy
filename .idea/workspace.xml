@@ -2,8 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76df5f32-e095-49f5-9c22-5804423a7c7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-1.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-10.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-12-1.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-12-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-12.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-14.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-2.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-3.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-7-1.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-7-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-8.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-9-2.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-9-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-9-3.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-9-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-9.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-1.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-4-4-1.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-4-4-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-5.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hamid/images/hamid-1.jpg" afterPath="$PROJECT_DIR$/assets/hamid/images/hamid-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-10.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-2-1-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-2-1-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-9-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-9-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-10-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-10-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-10.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-10.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-11.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-12-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-12-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-12-2.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-12-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-12.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-12.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-16.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-16.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-17.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-17.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-20.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-3.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-4-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-4-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-4.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-5-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-5-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-5-2.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-5-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-5.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-6.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-8.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/margaret/images/margaret-1.jpg" afterPath="$PROJECT_DIR$/assets/margaret/images/margaret-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/margaret/images/margaret-2.jpg" afterPath="$PROJECT_DIR$/assets/margaret/images/margaret-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/wei/images/wei-1.jpg" afterPath="$PROJECT_DIR$/assets/wei/images/wei-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/yesenia/images/yesenia-1.jpg" afterPath="$PROJECT_DIR$/assets/yesenia/images/yesenia-1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.css" afterPath="$PROJECT_DIR$/bundle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,7 +77,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="717" />
@@ -119,15 +161,15 @@
       <workItem from="1536816764875" duration="359000" />
       <workItem from="1537195895825" duration="938000" />
       <workItem from="1537233362137" duration="1384000" />
-      <workItem from="1538328203184" duration="1802000" />
+      <workItem from="1538328203184" duration="3283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19223000" />
+    <option name="totallyTimeSpent" value="20704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="1" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
