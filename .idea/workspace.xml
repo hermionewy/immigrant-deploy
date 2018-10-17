@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76df5f32-e095-49f5-9c22-5804423a7c7c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-0" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-2.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hamid/images/hamid-6.jpg" afterPath="$PROJECT_DIR$/assets/hamid/images/hamid-6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-6-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-6-1.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ama/images/ama-0.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-1.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/ama/images/ama-12-1.jpg" afterPath="$PROJECT_DIR$/assets/ama/images/ama-12-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-1.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/gianni/images/gianni-4-4-1.jpg" afterPath="$PROJECT_DIR$/assets/gianni/images/gianni-4-4-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hamid/images/hamid-1.jpg" afterPath="$PROJECT_DIR$/assets/hamid/images/hamid-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hamid/images/hamid-5.jpg" afterPath="$PROJECT_DIR$/assets/hamid/images/hamid-5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hamid/images/hamid-7.jpg" afterPath="$PROJECT_DIR$/assets/hamid/images/hamid-7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/hector/images/hector-2-1-1.jpg" afterPath="$PROJECT_DIR$/assets/hector/images/hector-2-1-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-1.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/joyce/images/joyce-12-2.jpg" afterPath="$PROJECT_DIR$/assets/joyce/images/joyce-12-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/margaret/images/margaret-1.jpg" afterPath="$PROJECT_DIR$/assets/margaret/images/margaret-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/margaret/images/margaret-2.jpg" afterPath="$PROJECT_DIR$/assets/margaret/images/margaret-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/wei/images/wei-1.jpg" afterPath="$PROJECT_DIR$/assets/wei/images/wei-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/wei/images/wei-3-2-1.jpg" afterPath="$PROJECT_DIR$/assets/wei/images/wei-3-2-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/yesenia/images/yesenia-1.jpg" afterPath="$PROJECT_DIR$/assets/yesenia/images/yesenia-1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/yesenia/images/yesenia-3.jpg" afterPath="$PROJECT_DIR$/assets/yesenia/images/yesenia-3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.css" afterPath="$PROJECT_DIR$/bundle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,10 +82,16 @@
               <item name="game-deploy" type="b2602c69:ProjectViewProjectNode" />
               <item name="game-deploy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="game-deploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -123,12 +143,13 @@
       <workItem from="1536816764875" duration="359000" />
       <workItem from="1537195895825" duration="938000" />
       <workItem from="1537233362137" duration="1384000" />
-      <workItem from="1538328203184" duration="3504000" />
+      <workItem from="1538328203184" duration="4827000" />
+      <workItem from="1539734014888" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20925000" />
+    <option name="totallyTimeSpent" value="22825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
@@ -136,12 +157,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45075125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -201,7 +222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-876">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

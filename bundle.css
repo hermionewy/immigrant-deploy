@@ -1363,6 +1363,12 @@ p.show_cite::before {
   }
 }
 
+@-moz-document url-prefix() {
+  img:-moz-loading {
+    visibility: hidden;
+  }
+}
+
 @-webkit-keyframes scale-display {
   0% {
     opacity: 0;
