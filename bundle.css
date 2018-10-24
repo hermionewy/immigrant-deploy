@@ -574,12 +574,17 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   width: calc(100% - 16px);
   position: fixed;
   top: 0.5rem;
   background-color: #fdfdfc;
   z-index: 100;
+}
+
+header .site-header svg {
+  height: 40px;
+  width: 209px;
 }
 
 .card-persona {
@@ -712,6 +717,10 @@ figure,picture,img {
   width: 30%;
   height: auto;
   margin: 0px auto;
+}
+
+#methodology .opening__title {
+  margin: 1rem auto;
 }
 
 #methodology .center_btn {
@@ -949,17 +958,20 @@ p.show_cite::before {
   font-weight: 700;
 }
 
+.head_div {
+  width: 100%;
+}
+
 .opening__title {
   width: 100%;
   text-align: center;
-  width: 100%;
+  margin: 1rem auto;
 }
 
 .opening__deck {
   width: 100%;
   text-align: center;
   width: 100%;
-  margin-bottom: 1rem;
 }
 
 .opening__deck .center__p {
@@ -969,13 +981,14 @@ p.show_cite::before {
 }
 
 .address {
-  margin: 0 auto;
-  width: 100%;
+  margin: 1rem auto;
+  width: 90%;
+  height: auto;
   text-align: center;
 }
 
 .address .opening-byline {
-  width: 90%;
+  width: 100%;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 700;
@@ -1262,7 +1275,16 @@ p.show_cite::before {
     min-height: 240vh;
   }
 
+  .opening__title {
+    width: 50%;
+    margin: auto;
+  }
+
   .opening__deck .center__p {
+    width: 50%;
+  }
+
+  .address .opening-byline {
     width: 50%;
   }
 
@@ -1360,6 +1382,16 @@ p.show_cite::before {
     width: auto;
     height: auto;
     max-height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  .card-persona .hero__media img {
+    min-width: 75%;
+    max-width: 95%;
+    width: auto;
+    height: auto;
+    max-height: 90vh;
   }
 }
 
